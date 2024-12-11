@@ -14,8 +14,15 @@ f.write("Hello\n")"""
 
 f = open("text.txt", "w+")
 f.write("Hello\n")
+# todo:ЧИТАТЬ СОДЕРЖИМОЕ НУЖНО ДО ЗАКРЫТИЯ ФАЙЛА
 f.close()
 
+
+
+
+# РЕШЕНИЕ НЕ ВЕРНОЕ
+#         ||
+#         \/
 # А теперь прочитаем!
 
 my_file = open('text.txt', 'r+')
